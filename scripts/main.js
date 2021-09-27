@@ -1,5 +1,4 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Mozilla is cool.';
+
 
 let myImage = document.querySelector('img');
 
