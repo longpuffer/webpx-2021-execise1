@@ -5,9 +5,9 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/sans.png') {
-      myImage.setAttribute ('src','./images/unchi.png');
+      myImage.setAttribute ('src','images/unchi.png');
     } else {
-      myImage.setAttribute ('src','./images/sans.png');
+      myImage.setAttribute ('src','images/sans.png');
     }
 }
 let myButton = document.querySelector('button');
